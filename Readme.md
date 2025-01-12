@@ -1,3 +1,7 @@
+https://vodogrei13.github.io/switzerland-test-/
+
+
+Задание по макету:
 https://www.figma.com/design/Bxaf0gbgU9jlZPJ9IJWP9r/test_mst?node-id=65-571&t=40bm5AFBvwiIsSli-0
 
 1. Вёрстка должна быть адаптивной с минимальным разрешением для отображения 320px. 
