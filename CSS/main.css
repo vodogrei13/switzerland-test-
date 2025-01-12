@@ -1,0 +1,185 @@
+body {
+    background-color: #282829;
+    color: #fff;
+    font-family: "Prata";
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    max-width: 100%;
+}
+.main__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+.main__one {
+    display: flex;
+}
+.main__one_container {
+    width: 60.26vw;
+    margin: 9.1em 0 0 8.1em;
+}
+.main__one_title {
+    font-size: 4em;
+    margin: 0;
+}
+.main__one_text {
+    font-size: 2.5em;
+    margin: 0;
+}
+.main__one_list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75em;
+}
+.main__one_item {
+    padding-left: 1.4em;
+    font-size: 1.2em;
+    display: flex;
+    gap: 0.2em;
+    align-items: center;
+
+}
+.big_text {
+    font-size: 1.6666666666666667em;
+}
+.main__one_images {
+    background-image: url('../img/a-photo-of-a-beautiful-realistic-swiss-m_-QVmiZiQSzahpyXwMkjPSg_wuAoQ_-FS-C-v0KXQF-EQA.jpeg');
+    width: 39.74vw;
+    height: 100.900vh;
+    overflow: hidden;
+}
+.vector_1 {
+    background-image: url('../img/vector.png');
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: 0px center;
+}
+.main__two {
+    display: flex;
+}
+.main__two_image1 {
+    background-image: url('../img/a-photo-of-a-beautiful-realistic-swiss-m_N7rKxts4QqelvpahsjpRdw_wuAoQ_-FS-C-v0KXQF-EQA.jpeg');
+    width: 32.40vw;
+    height: 72.400vh;
+    overflow: hidden;
+}
+.main__two_image2 {
+    background-image: url('../img/FZ8PtlAjQouas6qw-liLTg.jpg');
+    width: 30.68vw;
+    height: 72.400vh;
+    overflow: hidden;
+}
+.vector_2 {
+    background-image: url('../img/vector2.png');
+    background-repeat: no-repeat;
+    background-size: 2.1em;
+    background-position: 0px center;
+}
+.main__two_hero {
+    width: 31.979vw;
+    margin: 0 2.65em 0 2.65em;
+}
+.main__two_list {
+    list-style-type: none;
+    padding-top: 1em;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.main__two_item {
+    font-size: 1.2em;
+    padding-left: 2.6em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+}
+.main__two_btn {
+    width: 31.979vw;
+    margin: 0 2.65em 0 2.65em;
+    background-color: #fff;
+    color: #282829;
+    padding: 1.6em 2.6em 0.6em 2.6em;
+    margin-left: 0px;
+    font-size: 1em;
+    font-weight: 700;
+    align-items: center;
+    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.main__two_btn:hover {
+    background-color: #1d7678;
+    color: #fff;
+    transform: scale(1.02);
+    border-radius: 10px;
+    transition: all .4s ease;
+    font-size: 1.1em;
+}
+.main__form {
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 2px solid rgb(213,201,198);
+    background-image: url('../img/tower.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 83.177vw;
+    height: 62.800vh;
+}
+.main__form_container {
+    background-image: url('../img/girl.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: -110px;
+    background-clip: border-box;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8125em;
+    padding-left: 4em;
+    width: 40.677vw;
+    height: 48.400vh;
+    color: #38535d;
+}
+.form__title {
+    color: #38535d;
+    font-size: 3.375em;
+    margin: 1.1em 0 0 0;
+}
+.checkbox {
+    display: flex;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+.input {
+    min-height: 6.500vh;
+    padding-left: 20px;
+    font-size: 0.8em;
+}
+.form__btn {
+    cursor: pointer;
+    border-radius: 4px;
+    background: rgb(40, 40, 41);
+    align-self: stretch;
+    padding: 1.3em 0 1.3em 0;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Arial;
+}
+.form__btn:hover {
+    background-color: #1d7678;
+    transform: scale(1.02);
+    transition: all .4s ease;
+    font-size: 1.1em;
+}

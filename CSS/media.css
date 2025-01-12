@@ -1,0 +1,157 @@
+/*iPad Pro*/
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+    .main__one_container {
+        width: 60.26vw;
+        margin: 6.1em 0 0 6.1em;
+    }
+    .main__one_images {
+        width: 34.74vw;
+        height: 84.900vh;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+    .header__container {
+        margin-left: 5.599vh;
+    }
+    .main__one_container {
+        width: 56.26vw;
+        margin: 5.1em 0 0 6.1em;
+    }
+    .main__one_images {
+        width: 34.74vw;
+        height: 70.900vh;
+    }
+    .main__two_image1 {
+        width: 32.40vw;
+        height: 56.400vh;
+    }
+    .main__two_image2 {
+        width: 30.68vw;
+        height: 56.400vh;
+    }
+    .main__two_list {
+        gap: 4em;
+    }
+    .main__form {
+    width: 79.8125em;
+    width: 83.177vw;
+    height: 50.800vh;
+}
+.footer__btn {
+    padding: 1.4em 2.95em 1.4em 2.95em;
+}
+}
+@media (max-width: 414px) {
+    body {
+        font-size: 6px;
+    }
+    .header__container {
+        margin-left: 5.599vh;
+    }
+    .main__one_title {
+        margin-top: 5.5em;
+    }
+    .main__one_container {
+        width: 56.26vw;
+        margin: 5.1em 0 0 6.1em;
+    }
+    .main__one_images {
+        width: 34.74vw;
+        height: 50.900vh;
+    }
+    .main__two_image1 {
+        width: 32.40vw;
+        height: 42.400vh;
+    }
+    .main__two_image2 {
+        width: 30.68vw;
+        height: 42.400vh;
+    }
+    .main__two_list {
+        gap: 5em;
+    }
+    .input {
+        min-height: 2.500vh;
+        font-size: 0.6em;
+    }
+    .main__form {
+    width: 93.177vw;
+    height: 30.800vh;
+}
+.footer__btn {
+    padding: 0.4em 1.95em 0.4em 1.95em;
+}
+.footer__btn:hover {
+    background-color: #1d7678;
+    transform: scale(1.02);
+    transition: all .4s ease;
+    font-size: 1.94em;
+}
+}
+@media (max-width: 320px) {
+    body {
+        font-size: 4px;
+    }
+    .header__container {
+        margin-left: 4.599vh;
+    }
+    .main__one_title {
+        margin-top: 4.5em;
+    }
+    .main__one_container {
+        width: 46.26vw;
+        margin: 5.1em 0 0 6.1em;
+    }
+    .main__one_images {
+        width: 40.74vw;
+        height: 30.900vh;
+    }
+    .main__two_image1 {
+        width: 32.40vw;
+        height: 28.400vh;
+    }
+    .main__two_image2 {
+        width: 30.68vw;
+        height: 28.400vh;
+    }
+    .main__two_list {
+        gap: 6em;
+    }
+    .input {
+        min-height: 1.500vh;
+        font-size: 0.6em;
+    }
+    .main__form {
+    width: 83.177vw;
+    height: 20.800vh;
+}
+.main__form_container {
+    background-image: none;
+}
+.footer__btn {
+    padding: 0.2em 0.45em 0.2em 0.45em;
+}
+.footer__btn:hover {
+    background-color: #1d7678;
+    transform: scale(1.02);
+    transition: all .4s ease;
+    font-size: 3.64em;
+}
+.socal {
+    width: 2px;
+    height: 2px;
+}
+.footer__vectors {
+    gap: 30px;
+    padding: 0;
+}
+.footer__hero_1 {
+    justify-content: space-between;
+}
+}
